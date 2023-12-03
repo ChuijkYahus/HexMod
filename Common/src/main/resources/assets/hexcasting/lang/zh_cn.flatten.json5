@@ -13,6 +13,8 @@
       "crimson": "绯红木法杖",
       "warped": "诡异木法杖",
       "mangrove": "红树木法杖",
+      "cherry": "樱花木法杖",
+      "bamboo": "竹法杖",
       "edified": "启迪木法杖",
       "quenched": "淬灵晶法杖",
       "mindsplice": "制念法杖"
@@ -149,6 +151,8 @@
     "edified_door": "启迪木门",
     "edified_trapdoor": "启迪木活板门",
     "edified_stairs": "启迪木楼梯",
+    "edified_fence": "启迪木栅栏",
+    "edified_fence_gate": "启迪木栅栏门",
     "edified_slab": "启迪木台阶",
     "edified_button": "启迪木按钮",
     "edified_pressure_plate": "启迪木压力板",
@@ -1278,7 +1282,7 @@
       "math.construct_vec": "将三个数作为向量的 X，Y，Z 分量组合（最下方为 X 分量）。",
       "math.deconstruct_vec": "将一个向量拆分为其 X，Y，Z 分量（最下方为 X 分量）。",
       "math.modulo": "取两数除法的余数。也即执行除法后$(italic)剩余/$的数。例如，5 %% 2 得 1，5 %% 3 得 2。或对向量的每个分量执行上述操作。",
-      "math.coerce_axial": "若栈顶为向量，则返回与其夹角最小的轴向单位向量；零向量不受影响。若栈顶为数，则返回该数的符号；所给数为正则返回 1，为负责返回 -1，0 不受影响。",
+      "math.coerce_axial": "若栈顶为向量，则返回与其夹角最小的轴向单位向量；零向量不受影响。若栈顶为数，则返回该数的符号；所给数为正则返回 1，为负则返回 -1，0 不受影响。",
       "math.random": "返回一个 0 与 1 之间的随机数。",
 
 
